@@ -24,7 +24,7 @@ int[] numero = {2,3,4,5};
             System.out.println("El numero es: "+  numeros[i] + " con indice: " + i);
         }
 // ITERACION CON FOR EACH
-        System.out.println("---------------- con foreach--------------------------");
+        System.out.println("----------------- con foreach--------------------------");
         int indice = 0;
         for(int num : numeros){
             System.out.println(num + " con indice: " + indice);
