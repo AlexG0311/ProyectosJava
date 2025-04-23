@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 public class Juego {
     public static void main(String[] args) {
-    Scanner teclado = new Scanner(System.in);
-    int intentos = 0;
-    int intentosMaximos = 7;
-    String palabraSecreta = "cristiano";
-    boolean isWordCorrecta = false;
+        Scanner teclado = new Scanner(System.in);
+        int intentos = 0;
+        int intentosMaximos = 7;
+        String palabraSecreta = "cristiano";
+        boolean isWordCorrecta = false;
 
-    char[] letrasAdivinadas = new char[palabraSecreta.length()];
+        char[] letrasAdivinadas = new char[palabraSecreta.length()];
 
         for (int i = 0; i < palabraSecreta.length(); i++) {
             letrasAdivinadas[i] = '_';
@@ -38,10 +38,10 @@ public class Juego {
             }
 
         }
-if(!isWordCorrecta){
-    System.out.println("Has perdido TONTO");
-}
-teclado.close();
+        if(!isWordCorrecta){
+            System.out.println("Has perdido TONTO");
+        }
+        teclado.close();
 
 
 
