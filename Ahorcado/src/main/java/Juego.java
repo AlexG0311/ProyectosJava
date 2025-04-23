@@ -11,7 +11,7 @@ public class Juego {
 
 
 
-    Scanner teclado = new Scanner(System.in);
+    Scanner teclado = new Scanner(System.in); //
 
 
 
